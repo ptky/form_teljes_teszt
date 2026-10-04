@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1200px;
+    background-color: rgb(217, 236, 254);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px;
+    
+}
+
+header {
+    flex: 0 0 100%;
+}
+
+h1 {
+    text-align: center;
+}
+article {
+    flex: 0 0 100%;
+}
+
+fieldset {
+    background-color: white;
+    border: solid 2px black;
+}
+
+footer {
+    flex: 0 0 100%;
+    text-align: center;
+}

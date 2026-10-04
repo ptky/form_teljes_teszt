@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pataky Dániel</title>
+    <meta name="keywords" content="gyakorlas, formok," />
+    <meta name="description" content="formok, gyakorlas, imadom" />
+    <link rel="stylesheet" href="oldal.css" />
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Form gyakorlás 2000</h1>
+      </header>
+      <article>
+        <form>
+
+            <fieldset>
+            
+                <legend>Text + Textarea</legend>
+                <div class="szovegek">
+                <div class="nev_div">
+                <label for="nev">Add meg a neved:</label>
+                <input type="text" name="nev" id="nev" placeholder="Keresztnév" required>
+                </div>
+                <div class="szovegm">
+                <label for="szovegmezo">irj barmi mast amit szeretnel: </label>
+                <textarea name="szovegmezo" id="szovegmezo" minlength="10" placeholder="Minimum 10 karakter" ></textarea>
+                </div>
+                </div>
+            </fieldset>
+          <fieldset>
+            <legend>Checkbox</legend>
+            <div class="checkbox_fo">
+            <div class="checkbox_kerdesek">
+              <label for="ikt">Szereted az ikt-t?</label>
+              <input type="checkbox" name="ikt" id="ikt"  />
+            </div>
+            <div class="checkbox_kerdesek">
+              <label for="java">Szereted a java-t?</label>
+              <input type="checkbox" name="java" id="java"  />
+            </div>
+            <div class="checkbox_kerdesek">
+              <label for="java">Szereted a matekot?</label>
+              <input type="checkbox" name="java" id="java" />
+            </div>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Radio</legend>
+            <div class="radio_valasztas">
+              <label for="tantargy">Válaszd ki a kedvenc tantárgyad:</label>
+              <div class="radio_valasz">
+              <label for="tantargy">Matek</label>
+              <input type="radio" name="tantargy" id="tantrgy" value="matek" />
+              </div>
+              <div class="radio_valasz">
+              <label for="tantargy">Angol</label>
+              <input type="radio" name="tantargy" id="tantrgy" value="angol" />
+              </div>
+              <div class="radio_valasz">
+              <label for="tantargy">Magyar</label>
+              <input type="radio" name="tantargy" id="tantrgy" value="magyar" />
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Option</legend>
+            <div>
+                <label for="tantargy">Válaszd ki a legrosszabb tantárgyat: </label>
+                <select name="tantargy" id="tantargy" required>
+                    <option value="matek">Matek</option>
+                    <option value="tori">Töri</option>
+                    <option value="magyar">Magyar</option>
+
+                </select>
+            </div>
+          </fieldset>
+          <fieldset>
+                <legend>Reset - minden értéket töröl</legend>
+                <input type="reset" value="Reset">
+            </fieldset>
+
+          <fieldset>
+          <legend>Date</legend>
+          <label for="datum">Adj meg egy dátumot 2020-2022 között!</label>
+          <input type="date" name="datum" id="datum" min="2020-01-01" max="2022-12-31">
+          </fieldset>
+
+
+           <fieldset>
+            <legend>Feltöltés</legend>
+              <label for="file">Select a file:</label>
+            <input type="file" id="file" name="file">
+          </fieldset>
+
+
+
+
+
+          <div class="kuldes">
+            <input type="submit" value="Küldés" />
+          </div>
+        </form>
+      </article>
+      <footer>
+        <p>Pataky Dániel</p>
+      </footer>
+    </main>
+  </body>
+</html>

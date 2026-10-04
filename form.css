@@ -1,0 +1,62 @@
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 15px;
+}
+
+fieldset {
+    flex: 1 1 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.szovegek {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.radio_valasztas {
+    display: flex;
+    flex-wrap: wrap;
+}
+.radio_valasz {
+    flex: 0 0 100%;
+}
+.szovegek label {
+    flex: 0 0 130px;
+    text-align: right;
+    padding: 2px;
+
+}
+.kuldes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.kuldes input {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+.szovegek input,textarea {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.szovegm, .nev_div {
+    flex: 0 0 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
